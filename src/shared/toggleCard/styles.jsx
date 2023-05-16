@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import Col from "../../Kit/Column";
-import Row from "../../Kit/Row";
+import Col from "../../kit/Column";
+import Row from "../../kit/Row";
 
 export const ToggleWrapper = styled.div`
 .toggle-menu {

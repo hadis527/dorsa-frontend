@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
-import CloseIcon from "../../assets/icons/close";
-
+import React from 'react';
+import CloseIcon from "../../assets/icons/CloseIcon";
+import PropTypes from 'prop-types';
 import {
     ToggleWrapper,
     ToggleContainer,
@@ -15,10 +15,6 @@ const UserDetailToggle = (props) => {
         selectedItem,
         onChange
     } = props;
-
-    useEffect(() => {
-
-    }, [])
 
     return (
         <ToggleWrapper>
@@ -54,4 +50,11 @@ const UserDetailToggle = (props) => {
     )
 }
 
+UserDetailToggle.propTypes = {
+    isOpen:PropTypes.bool,
+    onToggle:PropTypes.func,
+    sortListOptions:PropTypes.array,
+    selectedItem:PropTypes.array,
+    onChange:PropTypes.func
+  };
 export default UserDetailToggle;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import Row from "../../Kit/Row";
-import Col from "../../Kit/Column";
+import Row from "../../kit/Row";
+import Col from "../../kit/Column";
 
 
 export const DashboardWrapper = styled(Row)`

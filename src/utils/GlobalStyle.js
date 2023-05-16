@@ -1,17 +1,11 @@
 import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
-:root {
-  overflow-x:hidden;
-  font-size : ${(props) => (props.theme.fontSizeSm)};
-  font-family: ${(props) => (props.theme.fontDefault)};
-};
 
 body {
   font-family:  Vazir !important;
   background-color : #f7f7f7;
   overflow-x : hidden;
   margin :0;
-
 }
 
 ////////////////////////////////////////scroll bar

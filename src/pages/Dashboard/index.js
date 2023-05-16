@@ -12,7 +12,7 @@ import InfiniteScroll from "react-infinite-scroller";
 import SortIcon from "../../assets/icons/SortIcon";
 import ToggleCard from "../../shared/toggleCard";
 import useOutsideClick from "../../utils/methods/OutSideClickHandler";
-import Row from "../../Kit/Row";
+import Row from "../../kit/Row";
 const { REACT_APP_API_URL } = process.env;
 
 const Dashboard = () => {
