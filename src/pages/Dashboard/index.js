@@ -58,8 +58,7 @@ const Dashboard = () => {
     const getData = (sortItem) => {
         Axios({
             method: 'get',
-            // url: `${REACT_APP_API_URL}/api/v2/reviews-category/animations`,
-            url: `https://kodoumo.ir/wp-json/api/v2/reviews-category/animations`,
+            url: `${REACT_APP_API_URL}/wp-json/api/v2/reviews-category/animations`,
             params: { page: fields.pageNum, sortby: sortItem },
             headers: {
                 Authorization: `Bearer`,
